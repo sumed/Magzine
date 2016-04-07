@@ -1,0 +1,35 @@
+
+<html>
+<div style="text-shadow: none">
+<body class="background_image">
+<p style="font-family: cursive;">
+  <%= link_to "Your Article's", user_path(@user), class: "btn btn-info btn-sm" %>
+  </p>
+  <h1 style="color: #31708f;font-style: initial;font-family: cursive;">All Articles</h1>
+<table>
+<thead>
+  <tr>
+    <th>Name</th>    
+    <th>Author</th>
+    <th>Description</th>    
+    <th>Actions</th>
+  </tr>
+  </thead>
+ 
+  <% @articles.each do |article| %>
+  <tbody>
+    <tr>
+     
+      <td><%= article.title %></td>      
+      <td><%= article.author %></td>
+      <td><%= article.text %></td> 
+      <td><%= link_to "Show",article_path(article)%></td>
+    </tr>
+  </tbody>
+  <% end %>
+</table>
+
+
+ </body>
+ </div>
+</html>

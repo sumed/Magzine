@@ -1,0 +1,58 @@
+<html>
+<div style="text-shadow: none">
+ <body class="background_image">
+<p style="font-family: cursive;">
+<%= link_to "Click Here to See All Articles", articles_path, class: "btn btn-info btn-sm"%>
+</p>
+<h1 style="color: #31708f;font-style: bold;font-family: cursive;" >Your Article's</h1>
+<div>
+
+<table>
+<thead>
+  <tr>
+    
+    <th>Name</th>    
+    <th>Author</th>
+    <th>Description</th>
+    <th>Actions</th>
+  </tr>
+</thead>
+ 
+  <% @user.articles.each do |article| %>
+  <tbody>
+    <tr>
+     
+      <td><%= article.title %></td>      
+      <td><%= article.author %></td>
+      <td><%= article.text %></td> 
+      <td><%= link_to "Show", user_article_path(@user,article)%></td>
+
+    </tr>
+  </tbody>
+  <% end %>
+</table>
+</div>
+
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<%= form_for([@user, @user.articles.build]) do |f| %>
+
+    <%= f.label :title %>
+    <%= f.text_field :title, class: 'form-control' %>
+    
+    <%= f.label :author %> 
+    <%= f.text_field :author, class: 'form-control' %>
+
+    <%= f.label :description %>
+    <%= f.text_area :text,class: 'form-control'%>
+
+
+    <%= f.submit "Create New article", class: "btn btn-primary" %>
+    <% end %>
+</div>
+</div>
+
+</body>
+
+</div>
+</html>

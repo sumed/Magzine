@@ -1,0 +1,14 @@
+<html>
+<body class="main_image">
+<div style="padding-top: 200px">
+	<h1 style="font-family: monospace;">Article Duniya </h1>
+
+	<h2> Make your history</h2>
+	<div class="center">
+       <% if !logged_in? %>
+	<%=link_to "Sign up Now", new_user_path, class: "btn btn-lg btn-primary" %>
+	<% end %>
+</div>
+</div>
+</body>
+</html>

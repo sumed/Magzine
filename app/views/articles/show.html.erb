@@ -1,0 +1,62 @@
+
+
+<html>
+<head>
+  <title></title>
+</head>
+<body class="backroundcomments_image">
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong>Author:</strong>
+  <%= @article.author %>
+</p>
+
+<p>
+<strong>Description</strong>
+<%= @article.text %>
+</p>
+
+
+
+<h2>Comments</h2>
+<% @article.comments.each do |comment| %>
+  <p>
+    <strong>Commenter:</strong>
+    <%= comment.commenting %>
+  </p>
+ 
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.body %>
+  </p>
+<% if session[:user_id] == comment.article.user.id || comment.user_id == session[:user_id] %>
+<%= link_to 'Destroy Comment', user_article_comment_path(@user,@article,comment),
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>  
+<% end %>
+<% end %>
+
+
+
+<%= form_for([@user, @article, @article.comments.build]) do |f| %>
+
+  <p style="width: 20%">
+    <%= f.label :commenter %><br>
+    <%= f.text_field :commenting %>
+  </p>
+  <p style="width: 30%">
+    <%= f.label :body %><br>
+    <%= f.text_area :body %>
+  </p>
+  <p style="width: 20%">
+    <%= f.submit "Add Comment", class: "btn btn-primary"  %>
+  </p>
+ 
+<% end %>
+
+</body>
+</html>

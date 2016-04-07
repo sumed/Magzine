@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header class="navbar navbar-fixed-top navbar-inverse" style="text-shadow: none; background-color: rgba(66, 87, 150, 0.75); border-color: transparent  ">
+	<div class="container">
+		<nav>
+			<ul class="nav navbar-nav navbar-left">
+            <li style="font-size:40px; font-family: fantasy;"><%=link_to "Blogs",fronts_home_path %></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right" style="font-family: fantasy;">
+				<li><%=link_to "Home",fronts_home_path%></li>
+				<li><%=link_to "Help" %></li>
+				 <% if logged_in? %>
+				<li><%=link_to "My Profile",user_path(@current_user)%></li>
+				<li><%= link_to "Log out", sessions_destroy_path, method: "delete" %></li>		
+				<% else %>
+				<li><%=link_to "Login", sessions_new_path %></li>
+				<% end %>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="container">
+	<% if logged_in? %>
+     <label class="pull-right">User : <%= @current_user.name %></label>
+	<% end %>
+<%= yield %>
+</div>
+</body>
+</html>
