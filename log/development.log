@@ -31642,3 +31642,1274 @@ Completed 200 OK in 244ms (Views: 242.9ms | ActiveRecord: 0.4ms)
 
 
 Started GET "/assets/main.jpg" for ::1 at 2016-04-07 23:21:39 +0530
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:31:09 +0530
+Processing by FrontsController#home as HTML
+  [1m[36mUser Load (107.8ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered fronts/home.html.erb within layouts/application (151.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 492ms (Views: 376.3ms | ActiveRecord: 107.9ms)
+
+
+Started GET "/assets/articles.self-1e4558edbbc962ff2155021a3f629f0abb1e5bada235562b187d43455b7833ad.css?body=1" for ::1 at 2016-04-08 00:31:09 +0530
+
+
+Started GET "/assets/fronts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-08 00:31:09 +0530
+
+
+Started GET "/assets/users.self-145703b2d20018ec54a7a747b04f1d28a9ec4dd8356606b33f6d9a3be1cf12c2.css?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/fronts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/assets/main.jpg" for ::1 at 2016-04-08 00:31:10 +0530
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:31:11 +0530
+Processing by FrontsController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered fronts/home.html.erb within layouts/application (1.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:31:13 +0530
+Processing by FrontsController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered fronts/home.html.erb within layouts/application (1.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 00:31:15 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 00:31:15 +0530
+
+
+Started POST "/sessions/create" for ::1 at 2016-04-08 00:31:23 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g+KZPvwoEX9mkY0jG5M7c7ZnkAjf0M4tW36BH2M27Huq6O48Bp3hlOELgd7wrkwUJM7kgQW/0r/cMLooYHvmHg==", "session"=>{"email"=>"sumed@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (79.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'sumed@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 169ms (ActiveRecord: 79.1ms)
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 00:31:23 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (11.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (24.1ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2
+  Rendered users/show.html.erb within layouts/application (34.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 105ms (Views: 66.9ms | ActiveRecord: 36.1ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 00:31:23 +0530
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 00:38:33 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XVa+Z+R4tWqJTIyd5FJSPx3YJzM5dADERsLbuHQWHh90XMllHs1FgQ7WgGAPbyVYj3FTuuMbHFbBjOCPd1sUeg=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 00:38:34 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 262ms (Views: 260.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 00:38:34 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (1.1ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'magzine'
+  AND fk.table_name = 'articles'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `articles`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'magzine'
+  AND fk.table_name = 'comments'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `comments`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'magzine'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:40:46 +0530
+Processing by FrontsController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered fronts/home.html.erb within layouts/application (16.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 81ms (Views: 79.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/main.jpg" for ::1 at 2016-04-08 00:40:46 +0530
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:46:21 +0530
+Processing by FrontsController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered fronts/home.html.erb within layouts/application (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 854ms (Views: 852.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:46:23 +0530
+Processing by FrontsController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered fronts/home.html.erb within layouts/application (1.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/main.jpg" for ::1 at 2016-04-08 00:46:23 +0530
+
+
+Started GET "/users/new" for ::1 at 2016-04-08 00:46:25 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 97ms (Views: 79.6ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 00:46:25 +0530
+
+
+Started POST "/users" for ::1 at 2016-04-08 00:46:39 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BaAJoribSxCu+D5LWp4S26Vl95W2Y6fg21Th8wE4ADIsqn6gQi67+yliMraxo2W8N8yDHGwMu3JcGtrEAnUKVw==", "user"=>{"name"=>"sumed", "email"=>"sumed@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (21.8ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = 'sumed@gmail.com' LIMIT 1
+  [1m[36m (5.2ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 177ms (Views: 61.3ms | ActiveRecord: 27.8ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 00:46:39 +0530
+
+
+Started POST "/users" for ::1 at 2016-04-08 00:46:58 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E092a5ezXFZybDe6PQkyoYkIFlRTAyOcq6Ln2UYfnTE6RQFpbQasvfX2O0fWNEXGG6Fi3YlsPw4s7NzuRVKXVA==", "user"=>{"name"=>"sumed", "email"=>"sumed@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = 'sumed@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 239ms (Views: 152.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 00:46:58 +0530
+  [1m[36m (178.3ms)[0m  [1mDROP DATABASE IF EXISTS `magzine`[0m
+  [1m[35m (0.5ms)[0m  CREATE DATABASE `magzine` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (82.1ms)[0m  [1mCREATE TABLE `articles` (`id` int(11) auto_increment PRIMARY KEY, `title` varchar(255), `author` varchar(255), `text` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB[0m
+  [1m[35m (326.6ms)[0m  CREATE  INDEX `index_articles_on_user_id` USING btree ON `articles` (`user_id`) 
+  [1m[36m (179.4ms)[0m  [1mCREATE TABLE `comments` (`id` int(11) auto_increment PRIMARY KEY, `commenting` varchar(255), `body` text, `article_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `user_id` int(11)) ENGINE=InnoDB[0m
+  [1m[35m (171.6ms)[0m  CREATE  INDEX `index_comments_on_article_id` USING btree ON `comments` (`article_id`) 
+  [1m[36m (174.4ms)[0m  [1mCREATE  INDEX `index_comments_on_user_id` USING btree ON `comments` (`user_id`) [0m
+  [1m[35m (151.6ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `password_digest` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (179.3ms)[0m  [1mALTER TABLE `articles` ADD CONSTRAINT `fk_rails_3d31dad1cc`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+[0m
+  [1m[35m (170.5ms)[0m  ALTER TABLE `comments` ADD CONSTRAINT `fk_rails_3bf61a60d3`
+FOREIGN KEY (`article_id`)
+  REFERENCES `articles` (`id`)
+
+  [1m[36m (122.1ms)[0m  [1mALTER TABLE `comments` ADD CONSTRAINT `fk_rails_03de2dc08c`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+[0m
+  [1m[35m (169.9ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (139.4ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) [0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (28.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20160407160236')[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20160405190034')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20160405192935')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20160405214357')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20160406062823')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:56:50 +0530
+Processing by FrontsController#home as HTML
+  [1m[36mUser Load (16.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered fronts/home.html.erb within layouts/application (17.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 321ms (Views: 304.3ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/assets/main.jpg" for ::1 at 2016-04-08 00:56:50 +0530
+
+
+Started GET "/users/new" for ::1 at 2016-04-08 00:57:44 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 00:57:44 +0530
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 00:58:26 +0530
+Processing by FrontsController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered fronts/home.html.erb within layouts/application (1.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 01:00:55 +0530
+Processing by FrontsController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered fronts/home.html.erb within layouts/application (1.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 265ms (Views: 263.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/articles.self-1e4558edbbc962ff2155021a3f629f0abb1e5bada235562b187d43455b7833ad.css?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/fronts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/users.self-145703b2d20018ec54a7a747b04f1d28a9ec4dd8356606b33f6d9a3be1cf12c2.css?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/fronts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/assets/main.jpg" for ::1 at 2016-04-08 01:00:55 +0530
+
+
+Started GET "/users/new" for ::1 at 2016-04-08 01:00:57 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 01:00:57 +0530
+
+
+Started POST "/users" for ::1 at 2016-04-08 01:01:09 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XDEpjQw9PSrDNAgyu8WsUy1Ebd4CR0tisK7laZpPnh91O16P9ojNwUSuBM9Q+Ns0v+0ZV9goV/A34N5emQKUeg==", "user"=>{"name"=>"sumed", "email"=>"sumed@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = 'sumed@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (15.9ms)[0m  INSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('sumed', 'sumed@gmail.com', '$2a$10$pOy5amBjZUcjAD0xXYA8auEN9w1PCrayDcxOn4NPt.vlGjQWP0CV2', '2016-04-07 19:31:09', '2016-04-07 19:31:09')
+  [1m[36m (19.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 122ms (ActiveRecord: 36.0ms)
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:01:09 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  Rendered users/show.html.erb within layouts/application (42.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed 200 OK in 136ms (Views: 123.8ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:01:09 +0530
+
+
+Started POST "/users/1/articles" for ::1 at 2016-04-08 01:01:28 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V8KYZbkB5+Zf6/5XWgOXT1gNlQXHK5M23H8g9KUFFR1+yO9nQ7QXDdhx8qqxPuAoyqThjB1Ej6RbMRvDpkgfeA==", "article"=>{"title"=>"RoR", "author"=>"Sumed", "text"=>"RoR Basic's"}, "commit"=>"Create New article", "user_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (10.3ms)[0m  INSERT INTO `articles` (`title`, `author`, `text`, `user_id`, `created_at`, `updated_at`) VALUES ('RoR', 'Sumed', 'RoR Basic\'s', 1, '2016-04-07 19:31:28', '2016-04-07 19:31:28')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 20ms (ActiveRecord: 11.5ms)
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:01:28 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  Rendered users/show.html.erb within layouts/application (4.1ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed 200 OK in 224ms (Views: 220.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:01:29 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:01:33 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 100ms (Views: 96.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:01:35 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.7ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1
+  Rendered users/show.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Completed 200 OK in 62ms (Views: 56.4ms | ActiveRecord: 2.6ms)
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:01:42 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NPZezMwVsyEqMSah/1VhOQnPiDLDPQ47SM+s5DvyXPYd/CnONqBDyq2rKlwUaBZem2b8uxlSEqnPgZfTOL9Wkw=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:01:42 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:01:42 +0530
+
+
+Started GET "/users/new" for ::1 at 2016-04-08 01:01:44 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 84.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 01:01:44 +0530
+
+
+Started POST "/users" for ::1 at 2016-04-08 01:02:00 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LD48Fb6CxxAfy0I83qXOgf6Hr37CHHXwXnGhO6m81HYFNEsXRDc3+5hRTsE1mLnmbC7b9xhzaWLZP5oMqvHeEw==", "user"=>{"name"=>"Dolly", "email"=>"dolly@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = 'dolly@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Dolly', 'dolly@gmail.com', '$2a$10$3MKAMuVxo.3wQkdf9ucHBu/neIEOUBrQw./2lpKQu8NL.64egLXmW', '2016-04-07 19:32:00', '2016-04-07 19:32:00')
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 90ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 01:02:00 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  Rendered users/show.html.erb within layouts/application (8.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:02:01 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:02:03 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.6ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 01:02:05 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2
+  Rendered users/show.html.erb within layouts/application (5.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 62ms (Views: 57.2ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/users/2/articles" for ::1 at 2016-04-08 01:02:20 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+sIFzLEKQfQOnqY0/xSqfRyH01eQuFAbDFujcyU7GCXTyHLOS7+xH4kEqskUKd0aji6n3krXTImLFZhEJnYSQA==", "article"=>{"title"=>"Python", "author"=>"Dolly", "text"=>"Python Beginner's"}, "commit"=>"Create New article", "user_id"=>"2"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `articles` (`title`, `author`, `text`, `user_id`, `created_at`, `updated_at`) VALUES ('Python', 'Dolly', 'Python Beginner\'s', 2, '2016-04-07 19:32:20', '2016-04-07 19:32:20')[0m
+  [1m[35m (14.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 25ms (ActiveRecord: 16.5ms)
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 01:02:20 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (2.2ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2
+  Rendered users/show.html.erb within layouts/application (10.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 229ms (Views: 224.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:02:21 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:02:22 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 62ms (Views: 58.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles/1" for ::1 at 2016-04-08 01:02:28 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1
+  Rendered articles/show.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 113ms (Views: 108.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:02:28 +0530
+
+
+Started POST "/users/2/articles/1/comments" for ::1 at 2016-04-08 01:02:37 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/2+m4soG08iM4u5yqHgc10mOku8pj14tFfB9wg7dQubWZdHgMLMjIwt44o9DRWuw2yfmZvPgQr+Svkb1DZBIgw==", "comment"=>{"commenting"=>"Sumed", "body"=>"Nice Tutorial"}, "commit"=>"Add Comment", "user_id"=>"2", "article_id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `comments` (`commenting`, `body`, `article_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Sumed', 'Nice Tutorial', 1, 2, '2016-04-07 19:32:37', '2016-04-07 19:32:37')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/2/articles/1
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/users/2/articles/1" for ::1 at 2016-04-08 01:02:37 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"2", "id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 66ms (Views: 61.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:02:37 +0530
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 01:02:41 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2
+  Rendered users/show.html.erb within layouts/application (5.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 61ms (Views: 57.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:02:42 +0530
+
+
+Started GET "/users/2/articles/2" for ::1 at 2016-04-08 01:02:46 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"2", "id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  Rendered articles/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 50ms (Views: 45.7ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users/2/articles/2/comments" for ::1 at 2016-04-08 01:02:56 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k7oxgBXDW9Vj4w+QJzMByTnlpPxihTAiEU+tAdNG5DK6sEaC73arPuR5A23MDnauq0zQdbjqLLCWAZY20AvuVw==", "comment"=>{"commenting"=>"Dolly", "body"=>"My Own Comments"}, "commit"=>"Add Comment", "user_id"=>"2", "article_id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `comments` (`commenting`, `body`, `article_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Dolly', 'My Own Comments', 2, 2, '2016-04-07 19:32:57', '2016-04-07 19:32:57')[0m
+  [1m[35m (14.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/2/articles/2
+Completed 302 Found in 23ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/users/2/articles/2" for ::1 at 2016-04-08 01:02:57 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"2", "id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 225ms (Views: 221.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:02:57 +0530
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:03:00 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ubqxLeKZQj9xiifktSOBSt2fKsXfrfl16A5GDkTMTEuQsMYvGCyy1PYQKxleHvYtTzZeTAXC5edvQH05R4FGLg=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:03:00 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:03:00 +0530
+
+
+Started POST "/sessions/create" for ::1 at 2016-04-08 01:03:07 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lUVUNRwAGj+uoa6eM5/ffGrj5fUEK17sOqG9Mw/725K8TyM35rXq1Ck7omPYoqgb+EqRfN5EQn6974YEDLbR9w==", "session"=>{"email"=>"sumed@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'sumed@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 81ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:03:07 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1
+  Rendered users/show.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:03:07 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:03:10 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles/2" for ::1 at 2016-04-08 01:03:12 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered articles/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 51ms (Views: 46.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:03:12 +0530
+
+
+Started GET "/fronts/home" for ::1 at 2016-04-08 01:03:16 +0530
+Processing by FrontsController#home as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered fronts/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/main.jpg" for ::1 at 2016-04-08 01:03:16 +0530
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:03:18 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1
+  Rendered users/show.html.erb within layouts/application (5.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/1/articles/1" for ::1 at 2016-04-08 01:03:19 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"1", "id"=>"1"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  Rendered articles/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 51ms (Views: 46.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:03:26 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/2" for ::1 at 2016-04-08 01:03:29 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 52ms (Views: 48.0ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/users/1/articles/2/comments" for ::1 at 2016-04-08 01:03:38 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1/CUc3GDdu7KU3JxRJY+93PPhFMX4xxSakhWFKI4pnr++uNxizaGBU3Jfoyvq0mQ4Wbw2s2MAMDtBm0joXWsHw==", "comment"=>{"commenting"=>"Sumed", "body"=>"Sumed comments"}, "commit"=>"Add Comment", "user_id"=>"1", "article_id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `comments` (`commenting`, `body`, `article_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Sumed', 'Sumed comments', 2, 1, '2016-04-07 19:33:38', '2016-04-07 19:33:38')
+  [1m[36m (71.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1/articles/2
+Completed 302 Found in 79ms (ActiveRecord: 73.5ms)
+
+
+Started GET "/users/1/articles/2" for ::1 at 2016-04-08 01:03:38 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"1", "id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 74ms (Views: 70.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:03:38 +0530
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:03:47 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1
+  Rendered users/show.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:03:47 +0530
+
+
+Started GET "/users/1/articles/1" for ::1 at 2016-04-08 01:03:49 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"1", "id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  Rendered articles/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 50ms (Views: 45.1ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:03:52 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Qco1mtpYonsbeZHDgu/jrieqqfv13lAuI7CuOttf2vFowEKYIO1SkJzjnT5p0pTJtQPdci+xTLyk/pUN2BLQlA=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:03:52 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:03:53 +0530
+
+
+Started GET "/users/new" for ::1 at 2016-04-08 01:04:00 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/signup.jpg" for ::1 at 2016-04-08 01:04:00 +0530
+
+
+Started POST "/users" for ::1 at 2016-04-08 01:04:09 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y0C38zIr19wnr1H+CMq7cXDRKwWsjvcvcgUusN6bG+lKSsDxyJ4nN6A1XQPj98wW4nhfjHbh6731SxWH3dYRjA==", "user"=>{"name"=>"Ram", "email"=>"ram@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = 'ram@gmail.com' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Ram', 'ram@gmail.com', '$2a$10$L4cl1ivQEiMtsjH303wvvOb3nsEQWA1gKqGAXnEfKgacmr9k5m5ua', '2016-04-07 19:34:09', '2016-04-07 19:34:09')[0m
+  [1m[35m (19.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 103ms (ActiveRecord: 21.3ms)
+
+
+Started GET "/users/3" for ::1 at 2016-04-08 01:04:09 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 3
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:04:10 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:04:11 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/2" for ::1 at 2016-04-08 01:04:13 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered articles/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:04:13 +0530
+
+
+Started GET "/users/3" for ::1 at 2016-04-08 01:04:17 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 3[0m
+  Rendered users/show.html.erb within layouts/application (4.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Completed 200 OK in 48ms (Views: 45.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:04:19 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/2" for ::1 at 2016-04-08 01:04:21 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles/1" for ::1 at 2016-04-08 01:04:24 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 49ms (Views: 44.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/3" for ::1 at 2016-04-08 01:04:26 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 3
+  Rendered users/show.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 54ms (Views: 50.7ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users/3/articles" for ::1 at 2016-04-08 01:04:52 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QJolqqYvXVaDWN4wlTpPeviuH7Gqt1uQY250K3sfkgtpkFKoXJqtvQTC0s1+BzgdagdrOHDYRwLkIE8ceFKYbg==", "article"=>{"title"=>"Angular", "author"=>"Ram", "text"=>"Angular xpert"}, "commit"=>"Create New article", "user_id"=>"3"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `articles` (`title`, `author`, `text`, `user_id`, `created_at`, `updated_at`) VALUES ('Angular', 'Ram', 'Angular xpert', 3, '2016-04-07 19:34:52', '2016-04-07 19:34:52')[0m
+  [1m[35m (2.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 15ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/users/3" for ::1 at 2016-04-08 01:04:52 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.6ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 3
+  Rendered users/show.html.erb within layouts/application (6.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:04:52 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:04:54 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 65ms (Views: 62.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/3" for ::1 at 2016-04-08 01:04:57 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3
+  Rendered articles/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:04:57 +0530
+
+
+Started GET "/users/3/articles/3" for ::1 at 2016-04-08 01:05:00 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"3", "id"=>"3"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3
+  Rendered articles/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 47ms (Views: 42.3ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/users/3/articles/3/comments" for ::1 at 2016-04-08 01:05:12 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"asB6Izf6AEHjRcTJMuRAnq5yhdZbMSgJAnMXHE6huFFDyg0hzU/wqmTfyDTZ2Tf5PNvxX4FeNJuFPSwrTeyyNA==", "comment"=>{"commenting"=>"Ram", "body"=>"My Own Comments"}, "commit"=>"Add Comment", "user_id"=>"3", "article_id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `comments` (`commenting`, `body`, `article_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Ram', 'My Own Comments', 3, 3, '2016-04-07 19:35:12', '2016-04-07 19:35:12')
+  [1m[36m (31.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/3/articles/3
+Completed 302 Found in 38ms (ActiveRecord: 32.6ms)
+
+
+Started GET "/users/3/articles/3" for ::1 at 2016-04-08 01:05:12 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"3", "id"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1  [["id", 3]]
+  Rendered articles/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:05:12 +0530
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:05:14 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dCV/g17nbvanrz2eREwxi7+xjvJIQ3sr7epfGTgbM6hdLwiBpFKeHSA1MWOvcUbsLRj6e5IsZ7lqpGQuO1Y5zQ=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:05:14 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:05:14 +0530
+
+
+Started POST "/sessions/create" for ::1 at 2016-04-08 01:05:19 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqH/euqGKleYE9RiXl/CVfAzmfpHsw1dGs/sKLYGy29zq4h4EDPavB+J2J+1YrUyYprtc53cEc+dgdcftUvBCg==", "session"=>{"email"=>"sumed@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'sumed@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 80ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for ::1 at 2016-04-08 01:05:19 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 1[0m
+  Rendered users/show.html.erb within layouts/application (4.9ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:05:20 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:05:21 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/3" for ::1 at 2016-04-08 01:05:23 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 49ms (Views: 44.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:05:23 +0530
+
+
+Started POST "/users/1/articles/3/comments" for ::1 at 2016-04-08 01:05:34 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ikFgineMrh6dIIXyn/7sfbPES2/trGPczbpHMUvgWRCjSxeIjTle9Rq6iQ90w5saIW0/5jfDf05K9HwGSK1TdQ==", "comment"=>{"commenting"=>"Sumed", "body"=>"Sumed's Comments"}, "commit"=>"Add Comment", "user_id"=>"1", "article_id"=>"3"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `comments` (`commenting`, `body`, `article_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Sumed', 'Sumed\'s Comments', 3, 1, '2016-04-07 19:35:34', '2016-04-07 19:35:34')
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1/articles/3
+Completed 302 Found in 9ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/users/1/articles/3" for ::1 at 2016-04-08 01:05:34 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"1", "id"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 50ms (Views: 45.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:05:34 +0530
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:05:37 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iiFaYm4YuG4g0Y1qB6OyxFquWDninY1IHnHYfFj4FeyjKy1glK1IhadLgZfsnsWjyAcssDjykdqZP+NLW7UfiQ=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:05:37 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:05:37 +0530
+
+
+Started POST "/sessions/create" for ::1 at 2016-04-08 01:05:43 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"md6Bd83QpXXukvhPMSk0hPK6cosgTgN6pcLEa9y7D1ew1PZ1N2VVnmkI9LLaFEPjYBMGAvohH+gijP9c3/YFMg==", "session"=>{"email"=>"dolly@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'dolly@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 80ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 01:05:43 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  Rendered users/show.html.erb within layouts/application (7.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:05:43 +0530
+
+
+Started GET "/articles" for ::1 at 2016-04-08 01:05:45 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT `articles`.* FROM `articles`
+  Rendered articles/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles/3" for ::1 at 2016-04-08 01:05:46 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 51ms (Views: 47.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:05:47 +0530
+
+
+Started POST "/users/2/articles/3/comments" for ::1 at 2016-04-08 01:05:58 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u1Qv30cTPptA/EocMNjVKdzG4Mki8rxylY9Hjz32rwOSXljdvabOcMdmRuHb5aJOTm+UQPidoOASwXy4PrulZg==", "comment"=>{"commenting"=>"dolly", "body"=>"dolly's"}, "commit"=>"Add Comment", "user_id"=>"2", "article_id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `comments` (`commenting`, `body`, `article_id`, `user_id`, `created_at`, `updated_at`) VALUES ('dolly', 'dolly\'s', 3, 2, '2016-04-07 19:35:58', '2016-04-07 19:35:58')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/2/articles/3
+Completed 302 Found in 17ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/users/2/articles/3" for ::1 at 2016-04-08 01:05:58 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"2", "id"=>"3"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  Rendered articles/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:05:58 +0530
+
+
+Started DELETE "/users/2/articles/3/comments/6" for ::1 at 2016-04-08 01:06:04 +0530
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9S5y8dbDMRjsakXe7ebfHV/gXJ0JKKLJp6YgRifCVX7cJAXzLHbB82vwSSMG26h6zUkoFNNHvlsg6BtxJI9fGw==", "user_id"=>"2", "article_id"=>"3", "id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.6ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  `comments`.* FROM `comments` WHERE `comments`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (25.4ms)[0m  [1mDELETE FROM `comments` WHERE `comments`.`id` = 6[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/2/articles/3
+Completed 302 Found in 33ms (ActiveRecord: 27.4ms)
+
+
+Started GET "/users/2/articles/3" for ::1 at 2016-04-08 01:06:04 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"2", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 3
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  Rendered articles/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 50ms (Views: 45.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:06:04 +0530
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:06:06 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"b+CKaJ0mrpRuJyq5RRUlUfIbEQkGISt0/6CfKcAh0BxG6v1qZ5Nef+m9JkSuKFI2YLJlgNxON+Z47qQew2zaeQ=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:06:06 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:06:06 +0530
+
+
+Started POST "/sessions/create" for ::1 at 2016-04-08 01:12:45 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TGZvZemLzFy3ty0ox5hnvk4KWMdHtuPCI5Rar0TSFo1lbBhnEz48tzAtIdUspRDZ3KMsTp3Z/1Ck2mGYR58c6A==", "session"=>{"email"=>"dolly@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'dolly@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 76ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/2" for ::1 at 2016-04-08 01:12:45 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT `articles`.* FROM `articles` WHERE `articles`.`user_id` = 2
+  Rendered users/show.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/background.jpg" for ::1 at 2016-04-08 01:12:45 +0530
+
+
+Started GET "/users/2/articles/2" for ::1 at 2016-04-08 01:12:48 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"user_id"=>"2", "id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/b2.jpg" for ::1 at 2016-04-08 01:12:48 +0530
+
+
+Started DELETE "/sessions/destroy" for ::1 at 2016-04-08 01:12:59 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x6TfyKpg8PUZka1wyESKaHduOvzEfZNqLY10z77lfNnurqjKUNUAHp4LoY0jef0P5cdOdR4Sj/iqw0/4vah2vA=="}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2016-04-08 01:12:59 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.jpg" for ::1 at 2016-04-08 01:12:59 +0530
